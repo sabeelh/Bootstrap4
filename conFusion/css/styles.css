@@ -44,7 +44,7 @@ body {
 }
 
 .carousel {
-	background: #512DA8;
+	background: #000000;
 	text-align: right;	
 }
 
@@ -58,4 +58,28 @@ body {
 	top: 0;
 	left: 0;
 	min-height: 300px;
+}
+
+#carouselButton{
+	bottom: 4px;
+	right: 4px;
+	position: absolute;
+	z-index: 1;
+}
+
+.modal-header {
+	background: #512DA8;
+	color: floralwhite;
+}
+
+.modal-body {
+	background: #D1C5E8;
+}
+
+.close {
+	color: floralwhite;
+}
+
+.close:hover {
+	color: white;
 }
